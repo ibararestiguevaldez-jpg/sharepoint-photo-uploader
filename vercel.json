@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "api.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "api.js"
+    }
+  ],
+  "env": {
+    "SHAREPOINT_USER": "@sharepoint_user",
+    "SHAREPOINT_PASS": "@sharepoint_pass"
+  }
+}

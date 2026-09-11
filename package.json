@@ -1,0 +1,29 @@
+{
+  "name": "sharepoint-photo-uploader",
+  "version": "1.0.0",
+  "description": "Backend para subir fotos de álbumes a SharePoint",
+  "main": "api.js",
+  "scripts": {
+    "start": "node api.js",
+    "dev": "nodemon api.js"
+  },
+  "keywords": [
+    "sharepoint",
+    "upload",
+    "photos"
+  ],
+  "author": "Ibar",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "axios": "^1.6.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}
