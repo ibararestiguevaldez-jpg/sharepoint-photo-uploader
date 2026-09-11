@@ -11,9 +11,5 @@
       "src": "/(.*)",
       "dest": "api.js"
     }
-  ],
-  "env": {
-    "SHAREPOINT_USER": "@sharepoint_user",
-    "SHAREPOINT_PASS": "@sharepoint_pass"
-  }
+  ]
 }
